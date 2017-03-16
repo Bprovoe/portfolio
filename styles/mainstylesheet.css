@@ -3,9 +3,43 @@ body
 {
   background-color: black;
 }
-ul
+img
+{
+  width: 100%;
+}
+.navlayout
 {
   list-style-type: none;
+  
+}
+.articlelist {
+  list-style-type: none;
+  text-align: center;
+}
+a:link
+{
+  color:black;
+}
+a:visited
+{
+  color: black;
+}
+a:hover
+{
+  color: white;
+
+}
+.navlinks:link
+{
+  color: white;
+}
+.navlinks:visited
+{
+  color: white;
+}
+.navlinks:hover
+{
+  color: rgb(31,200,234);
 }
 .navtext
 {
@@ -14,11 +48,28 @@ ul
 .articlebox
 {
   background-color: white;
-  width: 60%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.homearticlebox
+{
+  background-color: rgb(31,200,234);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.articletitle
+{
+  background-color: rgb(31,200,234);
+  text-align: center;
+}
 .sitedescription
 {
-  background-color: pink;
-  width: 30%;
+  background-color: rgb(31,200,234);
+  width: 25%;
+}
+.descriptiontext
+{
+  text-align: center;
 }
