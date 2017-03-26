@@ -3,19 +3,48 @@ body
 {
   background-color: black;
 }
+
 img
 {
   width: 100%;
 }
+
+header
+{
+  margin: 0 auto;
+}
+
+.logo
+{
+  width: 50%;
+}
+
 .navlayout
 {
   list-style-type: none;
-  
 }
-.articlelist {
+
+.articlelist
+{
   list-style-type: none;
   text-align: center;
 }
+
+header nav {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.navlayout
+{
+  display: inline;
+  padding: 3% 5% 5% 3%;
+  list-style-type: none;
+}
+
+
+
+
+
 a:link
 {
   color:black;
@@ -39,11 +68,20 @@ a:hover
 }
 .navlinks:hover
 {
-  color: rgb(31,200,234);
+  color: rgb(26,164,192);
 }
 .navtext
 {
   color: white;
+}
+.articlelist:nth-child(2n)
+{
+  background-color: rgb(162,218,228);
+}
+
+.navtext:hover
+{
+  text-shadow: 2px 2px 5px rgb(26,164,192);
 }
 .articlebox
 {
@@ -52,16 +90,24 @@ a:hover
   margin-left: auto;
   margin-right: auto;
 }
+.articleboxlist{
+  width: 70%;
+  background-color: rgb(201,233,240);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .homearticlebox
 {
-  background-color: rgb(31,200,234);
+  background-color: rgb(26,164,192);
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 .articletitle
 {
-  background-color: rgb(31,200,234);
+  background-color: rgb(26,164,192);
   text-align: center;
 }
 .sitedescription
