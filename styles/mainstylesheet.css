@@ -69,19 +69,31 @@ a:hover
 .navlinks:hover
 {
   color: rgb(26,164,192);
+  font-size: 4rem;
+   transition: ease 1s;
 }
 .navtext
 {
   color: white;
+
+}
+.navtext a {
+  text-decoration: none;
 }
 .articlelist:nth-child(2n)
 {
   background-color: rgb(162,218,228);
+  padding-bottom: .95rem;
 }
-
+.articlelist
+{
+  text-align: left;
+  padding-left: .95rem;
+  padding-top: .95rem;
+}
 .navtext:hover
 {
-  text-shadow: 2px 2px 5px rgb(26,164,192);
+  text-shadow: 2px 2px 5px rgb(,164,192);
 }
 .articlebox
 {
@@ -107,11 +119,13 @@ a:hover
 }
 .articletitle
 {
-  background-color: rgb(26,164,192);
+  background-color: rgb(29,164,194);
   text-align: center;
 }
+
 .sitedescription
 {
+  font-family: 'Sanchez', serif;
   background-color: rgb(31,200,234);
   width: 25%;
 }
